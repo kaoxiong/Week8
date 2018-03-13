@@ -17,7 +17,7 @@ sleep 1
 echo "\nlisting all the connected device and changing directory to one program: "
 sleep 1
 cd /dev
-ls 
+ls | less
 echo "What is the device you wish to change to."
 read DEV
 cd /dev/${DEV}
