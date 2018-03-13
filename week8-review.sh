@@ -5,8 +5,8 @@ echo "creating a folder and the printing path of that folder program: "
 sleep 1
 echo "Creating a folder............. "
 echo "Enter a name for the folder please:"
-read INPUT_NAME
-mkdir "${INPUT_NAME}"
+read INPUT_NAME #This command lets the user input a varible
+mkdir "${INPUT_NAME}" #The ${INPUT_NAME} is a call for the varible that the read command above made from the user input
 cd ./${INPUT_NAME}
 echo "\nPrinting path of folder :\n"
 sleep 1.5
